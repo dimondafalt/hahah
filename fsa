@@ -1,0 +1,11 @@
+class Unique {
+    constructor(lastCounter) {
+        this.count = lastCounter
+    }
+
+    add(num) {
+        this.count += num;
+    }
+}
+
+module.exports = {Unique};
